@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.form {
+  margin-top: 12%;
+}
+
+form input,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form button {
+  background-color: rgb(18, 212, 37);
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgb(44, 189, 73);
+}
+
+.mensagenVeradeiro {
+  color: #000000;
+  background-color: chartreuse;
+  display: none;
+  padding: 8px;
+}
+
+.mensagenFalso {
+  padding: 8px;
+  background-color: red;
+  color: #000000;
+  display: none;
+}
